@@ -16,7 +16,7 @@ Time spent: **6** hours spent in total
 - [ ] Steps to recreate: 
      Within the replies to a post, enter malicious code into the 'Comment' box
 - [ ] Affected source code:
-  - [Link 1](https://nvd.nist.gov/vuln/detail/CVE-2016-4566)
+  - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2016-4566)
   
 ### 2. CVE-2015-3440
 
@@ -27,7 +27,7 @@ Time spent: **6** hours spent in total
 - [ ] GIF Walkthrough: <img src="">
 - [ ] Steps to recreate: First, comment and have it approved by ADMIN. Then, create another comment and inject script
 - [ ] Affected source code:
-  - [Link 1](https://www.cvedetails.com/cve/CVE-2015-3440)
+  - [CVE Reference](https://www.cvedetails.com/cve/CVE-2015-3440)
 
 ### 3. CVE-2015-5734
 - [ ] Summary: 
@@ -37,7 +37,7 @@ Time spent: **6** hours spent in total
 - [ ] GIF Walkthrough: <img src="">
 - [ ] Steps to recreate: In the replies, inject script to display pop-up box.
 - [ ] Affected source code:
-  - [Link 1](https://www.rapid7.com/db/vulnerabilities/wordpress-cve-2015-5734/)
+  - [CVE Reference](https://www.rapid7.com/db/vulnerabilities/wordpress-cve-2015-5734/)
 
 ## Assets
 
@@ -59,7 +59,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [2023] [James Hernandez]
+    Copyright 2023 James Hernandez
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
