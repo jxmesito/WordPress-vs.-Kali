@@ -33,7 +33,7 @@ Time spent: **16** hours spent in total
   - Vulnerability types: XXS
   - Tested in version: 4.1
   - Fixed in version: 4.2.4
-- [ ] GIF Walkthrough: <img src="XXS.gif">
+- [ ] GIF Walkthrough: <img src="XSS.gif">
 - [ ] Steps to recreate: In the replies, inject script to display pop-up box when user reaches the top of the page.
 - [ ] Affected source code:
   - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2015-5734)
