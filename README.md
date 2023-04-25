@@ -1,52 +1,54 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **6** hours spent in total
+Time spent: **16** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pen Testing Report
 
-### 1. CVE-2016-4566
+### 1. SOME (CVE-2016-4566)
 
 - [ ] Summary: Cross-site scripting (XSS) vulnerability in plupload.flash.swf in Plupload before 2.1.9, as used in WordPress before 4.5.2, allows remote attackers to inject arbitrary web script or HTML via a Same-Origin Method Execution (SOME) attack.
   - Vulnerability types: SOME 
   - Tested in version: 4.1
   - Fixed in version: 4.5.2
-- [ ] GIF Walkthrough: <img src="">
-- [ ] Steps to recreate: 
-     Within the replies to a post, enter malicious code into the 'Comment' box
+- [ ] GIF Walkthrough: <img src="plupload.gif">
+- [ ] Steps to recreate: Within the replies to a post, enter malicious code into the 'Comment' box
 - [ ] Affected source code:
   - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2016-4566)
   
-### 2. CVE-2015-3440
+### 2. XSS (CVE-2016-1564)
 
 - [ ] Summary: Cross-site scripting (XSS) vulnerability in wp-includes/wp-db.php in WordPress before 4.2.1 allows remote attackers to inject arbitrary web script or HTML via a long comment that is improperly stored because of limitations on the MySQL TEXT data type.
   - Vulnerability types: XXS 
   - Tested in version: 4.1
   - Fixed in version: 4.2.1
-- [ ] GIF Walkthrough: <img src="">
-- [ ] Steps to recreate: First, comment and have it approved by ADMIN. Then, create another comment and inject script
+- [ ] GIF Walkthrough: <img src="refresh.gif">
+- [ ] Steps to recreate: In the replies, inject script to display pop-up box for every refresh.
 - [ ] Affected source code:
-  - [CVE Reference](https://www.cvedetails.com/cve/CVE-2015-3440)
+  - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2016-1564)
 
-### 3. CVE-2015-5734
-- [ ] Summary: 
+### 3. XSS (CVE-2015-5734)
+- [ ] Summary: Cross-site scripting (XSS) vulnerability in the legacy theme preview implementation in wp-includes/theme.php in WordPress before 4.2.4 allows remote attackers to inject arbitrary web script or HTML via a crafted string.
   - Vulnerability types: XXS
   - Tested in version: 4.1
   - Fixed in version: 4.2.4
-- [ ] GIF Walkthrough: <img src="">
-- [ ] Steps to recreate: In the replies, inject script to display pop-up box.
+- [ ] GIF Walkthrough: <img src="XXS.gif">
+- [ ] Steps to recreate: In the replies, inject script to display pop-up box when user reaches the top of the page.
 - [ ] Affected source code:
-  - [CVE Reference](https://www.rapid7.com/db/vulnerabilities/wordpress-cve-2015-5734/)
+  - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2015-5734)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+SOME.html
+refresh.html
+XSS.html
 
 ## Resources
 
 - [WordPress](https://core.trac.wordpress.org/browser/)
 - [Developer References](https://developer.wordpress.org/reference/)
+= [NVD Home](https://nvd.nist.gov/)
 
 GIFs created with  ...
 
@@ -55,7 +57,9 @@ GIFs created with  ...
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Throughout the process, I was over complicating things. I didn't realize until I was well into the attacks that there are few
+defense mechanisms shown throughout the website, making it a very vulnerable target, even to very simple attacks such as the 
+ones I demoed.
 
 ## License
 
