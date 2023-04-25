@@ -40,15 +40,15 @@ Time spent: **16** hours spent in total
 
 ## Assets
 
-SOME.html
-refresh.html
-XSS.html
+- SOME.html
+- refresh.html
+- XSS.html
 
 ## Resources
 
 - [WordPress](https://core.trac.wordpress.org/browser/)
 - [Developer References](https://developer.wordpress.org/reference/)
-= [NVD Home](https://nvd.nist.gov/)
+- [NVD Home](https://nvd.nist.gov/)
 
 GIFs created with  ...
 
