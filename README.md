@@ -8,7 +8,7 @@ Time spent: **16** hours spent in total
 
 ### 1. SOME (CVE-2016-4566)
 
-- [ ] Summary: Cross-site scripting (XSS) vulnerability in plupload.flash.swf in Plupload before 2.1.9, as used in WordPress before 4.5.2, allows remote attackers to inject arbitrary web script or HTML via a Same-Origin Method Execution (SOME) attack.
+- [ ] Cross-site scripting (XSS) vulnerability in plupload.flash.swf in Plupload before 2.1.9, as used in WordPress before 4.5.2, allows remote attackers to inject arbitrary web script or HTML via a Same-Origin Method Execution (SOME) attack.
   - Vulnerability types: SOME 
   - Tested in version: 4.1
   - Fixed in version: 4.5.2
@@ -19,7 +19,7 @@ Time spent: **16** hours spent in total
   
 ### 2. XSS (CVE-2016-1564)
 
-- [ ] Summary: Cross-site scripting (XSS) vulnerability in wp-includes/wp-db.php in WordPress before 4.2.1 allows remote attackers to inject arbitrary web script or HTML via a long comment that is improperly stored because of limitations on the MySQL TEXT data type.
+- [ ] Cross-site scripting (XSS) vulnerability in wp-includes/wp-db.php in WordPress before 4.2.1 allows remote attackers to inject arbitrary web script or HTML via a long comment that is improperly stored because of limitations on the MySQL TEXT data type.
   - Vulnerability types: XXS 
   - Tested in version: 4.1
   - Fixed in version: 4.2.1
@@ -29,7 +29,7 @@ Time spent: **16** hours spent in total
   - [CVE Reference](https://nvd.nist.gov/vuln/detail/CVE-2016-1564)
 
 ### 3. XSS (CVE-2015-5734)
-- [ ] Summary: Cross-site scripting (XSS) vulnerability in the legacy theme preview implementation in wp-includes/theme.php in WordPress before 4.2.4 allows remote attackers to inject arbitrary web script or HTML via a crafted string.
+- [ ] Cross-site scripting (XSS) vulnerability in the legacy theme preview implementation in wp-includes/theme.php in WordPress before 4.2.4 allows remote attackers to inject arbitrary web script or HTML via a crafted string.
   - Vulnerability types: XXS
   - Tested in version: 4.1
   - Fixed in version: 4.2.4
